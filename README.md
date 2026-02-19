@@ -134,6 +134,18 @@ deep-learning-pipeline/
 ### Step 1 – Install required packages
 ```bash
 pip install numpy pandas tensorflow matplotlib
+```
+
+### Step 2 – Run scripts in sequence
+```bash
+python 01_load_dataset.py
+python 02_data_preprocessing.py
+python 03_model_architecture.py
+python 04_model_compilation.py
+python 05_model_training.py
+python 06_model_evaluation.py
+python 07_model_saving.py
+```
 
 ## 📌 Key Highlights
 
@@ -171,4 +183,3 @@ Suggestions and improvements are always welcome.
 ---
 
 ### Happy Learning & Coding! 🚀
-
